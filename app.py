@@ -51,7 +51,9 @@ while True:
       feelings_list.append("awkward")
       encouragement_list.append("it's alright! everyone has their moments, maybe you can try a different approach?")
       counter += 1  
-      
+    if each_word == "mixed":
+      feelings_list.append("mixed")
+      encouragement_list.append("it's alright! you shld talk to your friends to feek better")     
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
